@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ken">
+        <meta name="description" content="Ken; web developer">
+        <meta name="keywords" content="web developer, front-end, html, css, javascript, react, sql">
+        <title>Guess Number</title>
+        <link rel="stylesheet" href="./assests/style/index.css">
+        <script src="./assests/script/app.js" defer></script>
     </head>
     <body>
-        <h1>hello world@</h1>
+        <main class="container">
+            <div class="gameDiv">
+                <div>
+                    <button class="playButton">Play again</button>
+                </div>
+                <div>
+                    <p class="guessesP" data-custom-value="5">Guesses:5</p>
+                    <input type="text" class="guessNumber">
+                    <p class="tipP">Type a number[1-10] in the circle to guess.</p>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
