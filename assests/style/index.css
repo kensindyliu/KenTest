@@ -32,6 +32,7 @@
 
 .playButton {
     background-color: #fff;
+    margin: 10px 20px 0 0;
 }
 
 .guessesP, .tipP {

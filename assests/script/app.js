@@ -5,9 +5,9 @@ let ramdomNumber = 0;
 getNumber();
 
 guessInput.addEventListener('input', () => {
+    const topP = document.querySelector('.tipP');
     if(!isNaN(guessInput.value)){
         let inputNumber = parseInt(guessInput.value);
-        const topP = document.querySelector('.tipP');
         if(inputNumber === ramdomNumber){
             topP.innerHTML = 'you got it!';
         } else if (inputNumber > ramdomNumber) {
@@ -15,6 +15,8 @@ guessInput.addEventListener('input', () => {
         } else if (inputNumber < ramdomNumber) {
             topP.innerHTML = 'My number is bigger.';
         }
+    } else {
+        topP.innerHTML = 'Please enter a number.';
     }
 })
 
