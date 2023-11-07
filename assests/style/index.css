@@ -6,15 +6,15 @@
   
 
 .guessNumber {
-    width: 120px; /* Set width to fit 2 digits */
-    height: 120px; /* Set height to create a circle */
-    border: none; /* Remove border */
-    outline: none; /* Remove outline */
-    text-align: center; /* Center text horizontally */
-    font-size: 30px; /* Set font size */
-    font-weight: bold; /* Set font weight */
-    line-height: 120px; /* Set line height to vertically center text */
-    border-radius: 50%; /* Create a circle shape */
+    width: 120px;
+    height: 120px; 
+    border: none;
+    outline: none; 
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: bold; 
+    line-height: 120px; 
+    border-radius: 50%; 
 }
 
 .gameDiv {
