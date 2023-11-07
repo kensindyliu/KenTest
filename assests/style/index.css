@@ -20,13 +20,28 @@
 .gameDiv {
     display: relative;
     text-align: center;
+    margin-top: 20px;
+
+}
+
+.playDiv {
+    width: 100%;
+    height: 20px;
+    text-align: right;
 }
 
 .playButton {
-    position: absolute;
-    right: 50px;
+    background-color: #fff;
 }
 
 .guessesP, .tipP {
     color: #fff;
+
+}
+.tipP {
+    height: 55px;
+}
+
+p {
+    font-size: 18px;
 }
